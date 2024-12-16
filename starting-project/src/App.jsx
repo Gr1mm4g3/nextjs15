@@ -1,12 +1,12 @@
 import Post from "./components/Post";
 
 function App() {
-  return <main>
+  return <>
     <Post />
     <Post />
     <Post />
     <Post />
-  </main>
+  </>
 }
 
 export default App;
