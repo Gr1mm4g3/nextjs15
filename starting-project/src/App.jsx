@@ -1,12 +1,10 @@
 import Post from "./components/Post";
+import PostsList from "./components/PostsList"
 
 function App() {
-  return <main>
-    <Post author="Lesley" body="React.js is awesome!"/>
-    <Post author="Manuel" body="Check out the full course!"/>
-    <Post />
-    <Post />
-  </main>
+  return <>
+    <PostsList />
+  </>
 }
 
 export default App;
